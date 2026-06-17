@@ -1,8 +1,8 @@
 /* Nama File   : Titik.java
- * Deskripsi    : class Titik
- * Pembuat      : Mutiara Ayu Pramono
- * Tanggal      : 16 Juni 2026
- */
+* Deskripsi    : class Titik
+* Pembuat      : Mutiara Ayu Pramono
+* Tanggal      : 16 Juni 2026
+*/
 
 public class Titik {
     double absis;

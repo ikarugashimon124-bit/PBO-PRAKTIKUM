@@ -1,8 +1,8 @@
 /* Nama File   : MTitik.java
- * Deskripsi    : class MTitik
- * Pembuat      : Mutiara Ayu Pramono
- * Tanggal      : 16 Juni 2026
- */
+* Deskripsi    : class MTitik
+* Pembuat      : Mutiara Ayu Pramono
+* Tanggal      : 16 Juni 2026
+*/
 public class MTitik {
     public static void main(String[] args) {
         System.out.println("Membuat Objek Titik");

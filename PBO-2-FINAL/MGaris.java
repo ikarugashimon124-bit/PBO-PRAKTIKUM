@@ -1,8 +1,8 @@
 /* Nama File   : MGaris.java
- * Deskripsi    : class MGaris
- * Pembuat      : Mutiara Ayu Pramono
- * Tanggal      : 16 Juni 2026
- */
+* Deskripsi    : class MGaris
+* Pembuat      : Mutiara Ayu Pramono
+* Tanggal      : 16 Juni 2026
+*/
 public class MGaris {
     public static void main(String[] args) {
         System.out.println("Membuat Objek Garis");

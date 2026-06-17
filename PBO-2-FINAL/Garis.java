@@ -1,8 +1,8 @@
 /* Nama File   : Garis.java
- * Deskripsi    : class Garis
- * Pembuat      : Mutiara Ayu Pramono
- * Tanggal      : 16 Juni 2026
- */
+* Deskripsi    : class Garis
+* Pembuat      : Mutiara Ayu Pramono
+* Tanggal      : 16 Juni 2026
+*/
 public class Garis {
     Titik T0;
     Titik T1;
