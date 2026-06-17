@@ -56,3 +56,44 @@ public class MPiaraan {
         klinik.showAnabul();
     }
 }
+
+/*
+ * ============================================================
+ * RENUNGAN - Konsep Koleksi
+ * ============================================================
+ * Koleksi adalah struktur data dinamis dari paket java.util
+ * yang memungkinkan penyimpanan sekumpulan objek tanpa harus
+ * menentukan kapasitas tetap sejak awal.
+ *
+ * Berbeda dengan larik (array) biasa yang ukurannya bersifat
+ * statis, koleksi dapat tumbuh dan menyusut secara otomatis
+ * sesuai kebutuhan program. Java menyediakan beberapa jenis
+ * koleksi berdasarkan pola akses yang dibutuhkan :
+ *
+ *   - List<T>  : menyimpan elemen secara berurutan dengan
+ *                indeks, memperbolehkan duplikat. Cocok untuk
+ *                daftar yang perlu diakses secara acak.
+ *                Contoh implementasi : ArrayList, LinkedList.
+ *
+ *   - Queue<T> : antrean berprinsip FIFO (First In, First Out).
+ *                Elemen masuk di belakang melalui offer() dan
+ *                keluar dari depan melalui poll(). Cocok untuk
+ *                simulasi antrean. Contoh : LinkedList.
+ *
+ *   - Set<T>   : koleksi tanpa elemen duplikat.
+ *
+ *   - Map<K,V> : koleksi pasangan kunci-nilai.
+ *
+ * Pada praktikum ini :
+ *   - List<String> pada kelas Teman merepresentasikan daftar
+ *     nama yang dapat ditambah, dihapus, dan diganti secara
+ *     fleksibel menggunakan metode bawaan ArrayList.
+ *   - Queue<Anabul> pada kelas Piaraan merepresentasikan
+ *     antrean hewan yang menunggu dirawat di klinik, mengikuti
+ *     prinsip FIFO sehingga yang datang lebih dulu akan
+ *     dilayani lebih dulu (dequeueAnabul).
+ *
+ * Dengan koleksi, pengelolaan data menjadi jauh lebih mudah
+ * dan fleksibel dibandingkan larik statis biasa.
+ * ============================================================
+ */
